@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Joshua Ables
  */
 public class C4_22 {
-            /**
+     /**
      * Main Method
      *
      * @param args arguments from command line prompt
