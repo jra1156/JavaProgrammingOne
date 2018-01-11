@@ -1,9 +1,9 @@
 package Chapter6;
 import java.util.Scanner;
 /**
+ * Program to test a password's validity.
  * 
- * 
- * @author ja0962305
+ * @author Joshua Ables
  */
 public class C6_18 {
     /**

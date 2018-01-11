@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Program to Reverse a string.
  * 
- * @author ja0962305
+ * @author Joshua Ables
  */
 public class C5_46 {
     /**

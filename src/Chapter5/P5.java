@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Program to count votes.
  * 
- * @author ja0962305
+ * @author Joshua Ables
  */
 public class P5 {
     /**

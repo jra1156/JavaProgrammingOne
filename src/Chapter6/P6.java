@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Program to convert currency.
  * 
- * @author ja0962305
+ * @author Joshua Ables
  */
 public class P6 {
     /**
