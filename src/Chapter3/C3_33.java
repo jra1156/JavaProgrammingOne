@@ -1,7 +1,7 @@
 package Chapter3;
 import java.util.Scanner;
 /**
- * Calculates deals on packaging.
+ * Program to calculate deals on packaging.
  * 
  * @author Joshua Ables
  */
