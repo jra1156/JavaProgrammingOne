@@ -1,18 +1,20 @@
-
 package Chapter6;
+
 import java.util.Scanner;
+
 /**
  * Program to convert currency.
- * 
+ *
  * @author Joshua Ables
  */
 public class P6 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println(" Enter how much euros a dollar will buy: ");
         double buy1 = input.nextDouble();
@@ -27,55 +29,56 @@ public static void main(String[] args) {
             double dol = input.nextDouble();
             System.out.println(" enter E to change the amount to euros, P to change the amount to pound sterling or Y to change the amount into yen: ");
             String a = input.next();
-            
+
             char b;
             b = a.charAt(0);
             if (b == 'E') {
                 double Euro = Convert(dol, buy1);
                 System.out.printf("For %.2f dollars you will get %.2f euros", dol, Euro);
-            }
-            else if (b == 'e') {
+            } else if (b == 'e') {
                 double Euro = Convert(dol, buy1);
                 System.out.printf("For %.2f dollars you will get %.2f euros", dol, Euro);
-            }
-
-            else if (b == 'P') {
+            } else if (b == 'P') {
                 double Pound = Convert(dol, buy2);
                 System.out.printf("For %.2f dollars you will get %.2f yen", dol, Pound);
-            }
-            else if (b == 'p') {
+            } else if (b == 'p') {
                 double Pound = Convert(dol, buy2);
                 System.out.printf("For %.2f dollars you will get %.2f yen", dol, Pound);
-            }
-
-            else if (b == 'Y') {
+            } else if (b == 'Y') {
+                double Yen = Convert(dol, buy3);
+                System.out.printf("For %.2f dollars you will get %.2f yen", dol, Yen);
+            } else if (b == 'y') {
                 double Yen = Convert(dol, buy3);
                 System.out.printf("For %.2f dollars you will get %.2f yen", dol, Yen);
             }
-            else if (b == 'y') {
-                double Yen = Convert(dol, buy3);
-                System.out.printf("For %.2f dollars you will get %.2f yen", dol, Yen);
-            }
-            do{
-            System.out.println(" do you to continue? enter yes to contiune or no to end the program: ");
-            answer = input.next();
-             } while (!answer.equalsIgnoreCase("no") && !answer.equalsIgnoreCase("yes"));
+            do {
+                System.out.println(" do you to continue? enter yes to contiune or no to end the program: ");
+                answer = input.next();
+            } while (!answer.equalsIgnoreCase("no") && !answer.equalsIgnoreCase("yes"));
         } while (!answer.equalsIgnoreCase("no"));
     }
-        
 
+    /**
+     * This method is used to calculate how much of a certain currency you are
+     * buying.
+     *
+     * @param dol is the amount of dollars that you have
+     * @param buy is the amount of dollars a certain currency is worth
+     * @return the program returns the amount of the selected currency that you
+     * will get
+     */
     public static double Convert(double dol, double buy) {
-        
+
         double reduction = 0.95;
         double bigreduction = .9;
         double dolls = 0;
-        double total; 
-        
+        double total;
+
         if (dol > 100) {
-            dolls = dol * reduction;          
+            dolls = dol * reduction;
             total = dolls * buy;
 
-        } else{
+        } else {
             dolls = dol * bigreduction;
             total = dolls * buy;
 
@@ -83,5 +86,5 @@ public static void main(String[] args) {
         return total;
 
     }
-        
+
 }
