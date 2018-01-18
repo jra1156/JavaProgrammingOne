@@ -1,12 +1,15 @@
 package Chapter3;
+
 import java.util.Scanner;
+
 /**
  * Program to calculate deals on packaging.
- * 
+ *
  * @author Joshua Ables
  */
 public class C3_33 {
-            /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
@@ -23,10 +26,11 @@ public class C3_33 {
         double price2 = input.nextDouble();
         double pak2 = weight2 / price2;
         double pak1 = weight1 / price1;
-        if(pak1 < pak2)
+        if (pak1 < pak2) {
             System.out.println("The second package is a better deal than package 1");
-        else
+        } else {
             System.out.println("The first package is a better deal than package 2");
+        }
     }
 
 }

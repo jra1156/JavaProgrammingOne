@@ -1,12 +1,15 @@
 package Chapter2;
+
 import java.util.Scanner;
+
 /**
  * Program to calculate gratuity.
- * 
+ *
  * @author Joshua Ables
  */
 public class C2_5 {
-        /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
