@@ -35,7 +35,7 @@ public class C7_1 {
  * assigns a grade to the number and checks for a best
  * @param numbers integer to keep track of the current number inputted 
  * @param best integer to keep track of the best number so far
- * @return 
+ * @return letter grade in the form of a grade
  */
     public static char grade(int numbers, int best) {
         if (numbers >= best - 10) {
