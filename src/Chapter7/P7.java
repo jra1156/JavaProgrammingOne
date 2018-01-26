@@ -24,7 +24,7 @@ public class P7 {
 
     }
 /**
- * 
+ * Returns the average of the array numbers 
  * @param numbers double to keep track of how many numbers are being entered
  * @param input scanner from that will be able to track input
  * @return 
@@ -40,7 +40,7 @@ public class P7 {
         return (sum / numbers.length);
     }
 /**
- * 
+ * Shows the content of the array
  * @param numbers  double to keep track of how many numbers are being entered
  */
     public static void method2(double[] numbers) {

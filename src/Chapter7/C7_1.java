@@ -32,7 +32,7 @@ public class C7_1 {
         }
     }
 /**
- * 
+ * assigns a grade to the number and checks for a best
  * @param numbers integer to keep track of the current number inputted 
  * @param best integer to keep track of the best number so far
  * @return 

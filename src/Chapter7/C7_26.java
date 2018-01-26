@@ -31,7 +31,7 @@ public class C7_26 {
 
     }
 /**
- * 
+ * Checks to see if both lists are identical
  * @param array1 integer array to keep track of the first array
  * @param array2 integer array to keep track of the Second array
  * @return 

@@ -74,7 +74,7 @@ public class P8 {
         }
     }
 /**
- * 
+ * checks the length of the list to the id value
  * @param list string that gets checked by the program for length
  * @param id checks the original length of the list
  * @return 
