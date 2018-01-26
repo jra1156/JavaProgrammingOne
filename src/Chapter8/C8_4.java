@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Program to calculate work hours
- * 
+ *
  * @author Joshua Ables
  */
 public class C8_4 {

@@ -3,7 +3,7 @@ package Chapter8;
 import java.util.Scanner;
 
 /**
- * Program to
+ * Program to track the progress of salesmen during a week
  *
  * @author Joshua Ables
  */
@@ -73,12 +73,14 @@ public class P8 {
             System.out.print("\n");
         }
     }
-/**
- * checks the length of the list to the id value
- * @param list string that gets checked by the program for length
- * @param id checks the original length of the list
- * @return 
- */
+
+    /**
+     * checks the length of the list to the id value
+     *
+     * @param list string that gets checked by the program for length
+     * @param id checks the original length of the list
+     * @return the length of the list from the varible i
+     */
     public static int tsring(String[] list, String id) {
         for (int i = 0; i < list.length; i++) {
             if (id.equals(list[i])) {

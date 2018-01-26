@@ -1,4 +1,5 @@
 package Chapter7;
+
 import java.util.Scanner;
 
 /**
@@ -31,12 +32,14 @@ public class C7_1 {
             System.out.println("Student " + i + " score is " + numbers[i] + " and grade is " + grade(numbers[i], best));
         }
     }
-/**
- * assigns a grade to the number and checks for a best
- * @param numbers integer to keep track of the current number inputted 
- * @param best integer to keep track of the best number so far
- * @return letter grade in the form of a grade
- */
+
+    /**
+     * assigns a grade to the number and checks for a best
+     *
+     * @param numbers integer to keep track of the current number inputted
+     * @param best integer to keep track of the best number so far
+     * @return letter grade in the form of a grade
+     */
     public static char grade(int numbers, int best) {
         if (numbers >= best - 10) {
             return 'A';

@@ -3,7 +3,7 @@ package Chapter7;
 import java.util.*;
 
 /**
- * Program to
+ * Program to determine the average from the numbers in an array
  *
  * @author Joshua Ables
  */
@@ -23,12 +23,14 @@ public class P7 {
         method2(numbers);
 
     }
-/**
- * Returns the average of the array numbers 
- * @param numbers double to keep track of how many numbers are being entered
- * @param input scanner from that will be able to track input
- * @return the average of the numbers
- */
+
+    /**
+     * Returns the average of the array numbers
+     *
+     * @param numbers double to keep track of how many numbers are being entered
+     * @param input scanner from that will be able to track input
+     * @return the average of the numbers
+     */
     public static double method1(double[] numbers, Scanner input) {
         double sum = 0;
         System.out.print("Enter the numbers: ");
@@ -39,10 +41,12 @@ public class P7 {
 
         return (sum / numbers.length);
     }
-/**
- * Shows the content of the array
- * @param numbers  double to keep track of how many numbers are being entered
- */
+
+    /**
+     * Shows the content of the array
+     *
+     * @param numbers double to keep track of how many numbers are being entered
+     */
     public static void method2(double[] numbers) {
         System.out.print("Contents of the array " + Arrays.toString(numbers));
     }
