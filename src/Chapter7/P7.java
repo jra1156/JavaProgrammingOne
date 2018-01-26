@@ -23,7 +23,12 @@ public class P7 {
         method2(numbers);
 
     }
-
+/**
+ * 
+ * @param numbers double to keep track of how many numbers are being entered
+ * @param input scanner from that will be able to track input
+ * @return 
+ */
     public static double method1(double[] numbers, Scanner input) {
         double sum = 0;
         System.out.print("Enter the numbers: ");
@@ -34,7 +39,10 @@ public class P7 {
 
         return (sum / numbers.length);
     }
-
+/**
+ * 
+ * @param numbers  double to keep track of how many numbers are being entered
+ */
     public static void method2(double[] numbers) {
         System.out.print("Contents of the array " + Arrays.toString(numbers));
     }

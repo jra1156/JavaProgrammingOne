@@ -30,7 +30,12 @@ public class C7_26 {
         equals(array1, array2);
 
     }
-
+/**
+ * 
+ * @param array1 integer array to keep track of the first array
+ * @param array2 integer array to keep track of the Second array
+ * @return 
+ */
     public static boolean equals(int[] array1, int[] array2) {
         if (java.util.Arrays.equals(array1, array2)) {
             System.out.println("the two list are strictly identical");

@@ -31,7 +31,12 @@ public class C7_1 {
             System.out.println("Student " + i + " score is " + numbers[i] + " and grade is " + grade(numbers[i], best));
         }
     }
-
+/**
+ * 
+ * @param numbers integer to keep track of the current number inputted 
+ * @param best integer to keep track of the best number so far
+ * @return 
+ */
     public static char grade(int numbers, int best) {
         if (numbers >= best - 10) {
             return 'A';

@@ -73,7 +73,12 @@ public class P8 {
             System.out.print("\n");
         }
     }
-
+/**
+ * 
+ * @param list string that gets checked by the program for length
+ * @param id checks the original length of the list
+ * @return 
+ */
     public static int tsring(String[] list, String id) {
         for (int i = 0; i < list.length; i++) {
             if (id.equals(list[i])) {
